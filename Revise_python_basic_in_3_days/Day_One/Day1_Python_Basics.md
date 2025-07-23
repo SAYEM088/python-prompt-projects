@@ -1,4 +1,4 @@
-#  Day 1: Python Basics & Data Structures
+> #  Day 1: Python Basics & Data Structures
 
 ---
 
