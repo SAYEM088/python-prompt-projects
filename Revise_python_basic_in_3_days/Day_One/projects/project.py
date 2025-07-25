@@ -1,5 +1,7 @@
 #Try this yourself, no ChatGPT help
+
 #using topics:- Lists, Tuples, Sets, Dictionaries
+
 
 #Date: July 23.2025
 #Day-1
@@ -24,15 +26,22 @@ while(LoginStatus==False):
     else:
         print("Enter wright Pass Please")
 
+
 # welcome Note
 print("Welcome Bro")
 print("Lets do something beautiful today!\n\n")
 #import for time
+
+        
+print("Welcome Bro")
+print("Lets do something beautiful today!\n\n")
+
 import datetime
 today = datetime.datetime.now()
 print("Today is "+ today.strftime("%A")+' of '+today.strftime("%B"))
 
 print("\n Lets Make a list , Are you ready? \n")
+
 
 
 #[(start, end), "reason"]
@@ -125,3 +134,4 @@ for task in taskList:
 
 ReName=researcherInfo["name"]
 print(f"\n All the best, {ReName}!")
+
