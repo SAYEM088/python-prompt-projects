@@ -16,6 +16,7 @@ researcherInfo={
 #as personal system only need password
 LoginStatus = False
 while(LoginStatus==False):
+    print("Welcome To the TO-DO CLI App \n")
     logPass=input("Enter Your Password : ")
     if logPass==researcherInfo.get("password") :
         LoginStatus = True
@@ -121,7 +122,6 @@ print(" Time       | Task")
 print("------------|-------------------------------")
 for task in taskList:
     print(f" {task['time']} | {task['task']} ({task['duration']} min)")
-
 
 ReName=researcherInfo["name"]
 print(f"\n All the best, {ReName}!")
